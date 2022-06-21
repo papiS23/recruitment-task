@@ -1,11 +1,11 @@
 @import 'components/header';
+@import 'components/aside';
 @import 'components/main';
 @import 'components/footer';
-@import 'variables/colors';
-@import 'variables/fonts';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }

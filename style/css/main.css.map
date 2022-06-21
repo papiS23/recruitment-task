@@ -1,14 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAMA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
-    "sources": [
-        "../scss/main.scss",
-        "../scss/components/_header.scss",
-        "../scss/components/_main.scss",
-        "../scss/components/_footer.scss",
-        "../scss/variables/_colors.scss",
-        "../scss/variables/_fonts.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/components/_header.scss","../scss/variables/_colors.scss","../scss/main.scss"],"names":[],"mappings":"AAGA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA,kBCxBI;EDyBJ;EACA;EACA;;AAGJ;EACI;;AAGJ;EACI;;AAGJ;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;;AAEA;EACI;EACA,kBCnDA;;ADuDR;EACI;;;AEnDR;EACI;EACA;EACA;EACA","file":"main.css"}
