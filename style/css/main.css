@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 809px;
+  height: 709px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -9,22 +9,22 @@
   background-size: cover;
 }
 .header__upper-box {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 }
 .header__logo-box {
-  width: 130px;
-  height: 140px;
+  width: 205px;
+  height: 221px;
   background-color: #E10024;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .header__logo-icon {
-  width: 60%;
+  width: 108px;
 }
 .header__nav {
   width: 50%;
@@ -44,7 +44,86 @@
   background-color: #E10024;
 }
 .header__title {
-  margin-right: 20%;
+  margin-right: 15%;
+  text-align: right;
+  color: #fff;
+  font-size: 55px;
+}
+.header__title--under {
+  font-size: 18px;
+  margin-top: 1%;
+}
+
+.aside {
+  width: 70%;
+  height: 302px;
+  position: absolute;
+  top: 552px;
+  margin-left: 15%;
+  background-color: #E10024;
+  display: flex;
+}
+.aside__offert-box {
+  width: 34%;
+  height: 100%;
+  color: #fff;
+}
+.aside__offert-box--first {
+  background-image: url("/resources/absolute1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aside__offert-box--second {
+  background-image: url("/resources/absolute2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aside__offert-box--third {
+  background-image: url("/resources/absolute3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aside__content {
+  width: 85%;
+  height: 65%;
+  margin: 5% auto;
+}
+.aside__date {
+  font-size: 16px;
+  margin-bottom: 5%;
+}
+.aside__title {
+  font-size: 26px;
+  margin-bottom: 8%;
+}
+.aside__paragraph {
+  font-size: 14px;
+  line-height: 25px;
+}
+.aside__btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.aside__btn {
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  margin-right: 5%;
+}
+.aside__icon-box {
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aside__icon {
+  height: 24px;
+  width: 24px;
 }
 
 * {

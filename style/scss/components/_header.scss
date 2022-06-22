@@ -3,7 +3,7 @@
 
 .header {
     width: 100%;
-    height: 809px;
+    height: 709px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -12,7 +12,7 @@
     background-size: cover;
 
     &__upper-box {
-        width: 60%;
+        width: 70%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -20,8 +20,8 @@
     }
 
     &__logo-box {
-        width: 130px;
-        height: 140px;
+        width: 205px;
+        height: 221px;
         background-color: $red-color;
         display: flex;
         justify-content: center;
@@ -29,7 +29,7 @@
     }
 
     &__logo-icon {
-        width: 60%;
+        width: 108px;
     }
 
     &__nav {
@@ -54,6 +54,14 @@
     }
 
     &__title {
-        margin-right: 20%;
+        margin-right: 15%;
+        text-align: right;
+        color: #fff;
+        font-size: 55px;
+
+        &--under {
+            font-size: 18px;
+            margin-top: 1%;
+        }
     }
 }

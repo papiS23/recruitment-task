@@ -1,0 +1,89 @@
+@import '../variables/colors';
+@import '../variables/fonts';
+
+.aside {
+    width: 70%;
+    height: 302px;
+    position: absolute;
+    top: 552px;
+    margin-left: 15%;
+    background-color: $red-color;
+    display: flex;
+
+
+    &__offert-box {
+        width: 34%;
+        height: 100%;
+        color: #fff;
+
+        &--first {
+            background-image: url('/resources/absolute1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        //TODO: finish the bg gradnient on aside childs
+
+        &--second {
+            background-image: url('/resources/absolute2.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        &--third {
+            background-image: url('/resources/absolute3.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__content {
+        width: 85%;
+        height: 65%;
+        margin: 5% auto;
+    }
+
+    &__date {
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+
+    &__title {
+        font-size: 26px;
+        margin-bottom: 8%;
+    }
+
+    &__paragraph {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    &__btn-box {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__btn {
+        font-size: 14px;
+        background: transparent;
+        border: none;
+        color: #fff;
+        margin-right: 5%;
+    }
+
+    &__icon-box {
+        height: 35px;
+        width: 35px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon {
+        height: 24px;
+        width: 24px;
+    }
+}
