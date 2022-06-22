@@ -69,19 +69,61 @@
   color: #fff;
 }
 .aside__offert-box--first {
+  position: relative;
   background-image: url("/resources/absolute1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 0;
+}
+.aside__offert-box--first::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: rgb(225, 0, 36);
+  background: linear-gradient(180deg, rgb(225, 0, 36) 20%, rgba(225, 0, 36, 0.7) 100%);
 }
 .aside__offert-box--second {
   background-image: url("/resources/absolute2.png");
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.aside__offert-box--second::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: rgb(186, 4, 33);
+  background: linear-gradient(180deg, rgb(186, 4, 33) 20%, rgba(186, 4, 33, 0.7) 100%);
 }
 .aside__offert-box--third {
   background-image: url("/resources/absolute3.png");
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.aside__offert-box--third::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: rgb(4, 5, 26);
+  background: linear-gradient(180deg, rgb(4, 5, 26) 20%, rgba(4, 5, 26, 0.7) 100%);
 }
 .aside__content {
   width: 85%;
@@ -120,6 +162,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.aside__icon-box--last {
+  background-color: #E10024;
 }
 .aside__icon {
   height: 24px;

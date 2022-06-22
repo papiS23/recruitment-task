@@ -17,23 +17,66 @@
         color: #fff;
 
         &--first {
+            position: relative;
             background-image: url('/resources/absolute1.png');
             background-size: cover;
             background-repeat: no-repeat;
-        }
+            z-index: 0;
 
-        //TODO: finish the bg gradnient on aside childs
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: -1;
+                background: rgb(225, 0, 36);
+                background: linear-gradient(180deg, rgba(225, 0, 36, 1) 20%, rgba(225, 0, 36, 0.7) 100%);
+            }
+        }
 
         &--second {
             background-image: url('/resources/absolute2.png');
             background-size: cover;
             background-repeat: no-repeat;
+            position: relative;
+            z-index: 0;
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: -1;
+                background: rgb(186, 4, 33);
+                background: linear-gradient(180deg, rgba(186, 4, 33, 1) 20%, rgba(186, 4, 33, 0.7) 100%);
+            }
         }
 
         &--third {
             background-image: url('/resources/absolute3.png');
             background-size: cover;
             background-repeat: no-repeat;
+            position: relative;
+            z-index: 0;
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: -1;
+                background: rgb(4, 5, 26);
+                background: linear-gradient(180deg, rgba(4, 5, 26, 1) 20%, rgba(4, 5, 26, 0.7) 100%);
+            }
         }
     }
 
@@ -80,6 +123,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        &--last {
+            background-color: $red-color;
+        }
     }
 
     &__icon {
