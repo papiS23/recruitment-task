@@ -52,7 +52,6 @@
 }
 .header__link--join-us:hover {
   border: 2px solid #E10024;
-  border-bottom: 2px solid #E10024;
   background: transparent;
 }
 .header__title {
@@ -314,6 +313,16 @@
 }
 .main__bed-img {
   height: 402px;
+}
+.main__abs-offert {
+  position: absolute;
+  background-color: #E10024;
+  width: 35%;
+  height: 30%;
+  opacity: 80%;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
 }
 .main__job-offert {
   width: 70%;
