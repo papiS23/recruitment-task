@@ -74,6 +74,7 @@
   margin-left: 15%;
   background-color: #E10024;
   display: flex;
+  z-index: 2;
 }
 .aside__offert-box {
   width: 34%;
@@ -213,6 +214,21 @@
   height: fit-content;
   display: flex;
   justify-content: center;
+  background-image: url("/resources/magazine.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.main__sections--second::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: rgb(4, 5, 26);
+  width: 100%;
+  height: 100%;
+  opacity: 80%;
+  z-index: -1;
 }
 .main__offert {
   width: 100%;
@@ -223,7 +239,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 .main__offert::before {
   content: "";
@@ -253,10 +269,16 @@
   width: 80%;
 }
 .main__btn-offert {
+  text-decoration: none;
   padding: 1em 3em;
-  background: transparent;
   border: 2px solid #E10024;
   color: black;
+  font-weight: 600;
+  transition: all 0.3s linear;
+}
+.main__btn-offert:hover {
+  background-color: #E10024;
+  color: #fff;
 }
 .main__visual {
   width: 35%;
@@ -310,6 +332,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  margin-bottom: 15%;
 }
 .main__logo-box {
   background-color: #E10024;
@@ -325,6 +348,44 @@
 .main__title-job {
   font-size: 35px;
   text-align: left;
+  color: #fff;
+}
+.main__paragraph-job {
+  color: #fff;
+  margin-bottom: 5%;
+  line-height: 30px;
+}
+.main__paragraph-job--under {
+  margin-bottom: 15%;
+  font-weight: 600;
+}
+.main__link {
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #E10024;
+  transition: all 0.3s linear;
+}
+.main__link:hover {
+  background-color: #E10024;
+}
+.main__link-p {
+  color: #fff;
+  margin-left: 5%;
+}
+.main__icon-box {
+  width: 50px;
+  height: 50px;
+  background-color: #E10024;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__icon {
+  width: 30px;
 }
 
 * {
@@ -332,4 +393,5 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=main.css.map */

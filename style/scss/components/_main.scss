@@ -13,6 +13,22 @@
             height: fit-content;
             display: flex;
             justify-content: center;
+            background-image: url('/resources/magazine.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 0;
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                background-color: rgba(4, 5, 26);
+                width: 100%;
+                height: 100%;
+                opacity: 80%;
+                z-index: -1;
+            }
         }
     }
 
@@ -26,7 +42,7 @@
         display: flex;
         justify-content: center;
         position: relative;
-        z-index: -1;
+        z-index: 0;
 
         &::before {
             content: '';
@@ -61,10 +77,17 @@
     }
 
     &__btn-offert {
+        text-decoration: none;
         padding: 1em 3em;
-        background: transparent;
         border: 2px solid $red-color;
         color: black;
+        font-weight: 600;
+        transition: all .3s linear;
+
+        &:hover {
+            background-color: $red-color;
+            color: #fff;
+        }
     }
 
     &__visual {
@@ -130,6 +153,7 @@
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
+        margin-bottom: 15%;
     }
 
     &__logo-box {
@@ -148,5 +172,51 @@
     &__title-job {
         font-size: 35px;
         text-align: left;
+        color: #fff;
     }
+
+    &__paragraph-job {
+        color: #fff;
+        margin-bottom: 5%;
+        line-height: 30px;
+
+        &--under {
+            margin-bottom: 15%;
+            font-weight: 600;
+        }
+    }
+
+    &__link {
+        width: 100%;
+        height: 50px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid $red-color;
+        transition: all .3s linear;
+
+        &:hover {
+            background-color: $red-color;
+        }
+    }
+
+    &__link-p {
+        color: #fff;
+        margin-left: 5%;
+    }
+
+    &__icon-box {
+        width: 50px;
+        height: 50px;
+        background-color: $red-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 30px;
+    }
+
 }
