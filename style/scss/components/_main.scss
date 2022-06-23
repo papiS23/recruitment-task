@@ -13,7 +13,7 @@
             height: fit-content;
             display: flex;
             justify-content: center;
-            background-image: url('/resources/magazine.png');
+            background-image: url('../../resources/magazine.png');
             background-size: cover;
             background-repeat: no-repeat;
             position: relative;
@@ -44,7 +44,7 @@
     &__offert {
         width: 100%;
         height: 900px;
-        background-image: url('/resources/main_bg.png');
+        background-image: url('../../resources/main_bg.png');
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;

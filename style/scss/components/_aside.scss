@@ -19,7 +19,7 @@
 
         &--first {
             position: relative;
-            background-image: url('/resources/absolute1.png');
+            background-image: url('../../resources/absolute1.png');
             background-size: cover;
             background-repeat: no-repeat;
             z-index: 0;
@@ -39,7 +39,7 @@
         }
 
         &--second {
-            background-image: url('/resources/absolute2.png');
+            background-image: url('../../resources/absolute2.png');
             background-size: cover;
             background-repeat: no-repeat;
             position: relative;
@@ -60,7 +60,7 @@
         }
 
         &--third {
-            background-image: url('/resources/absolute3.png');
+            background-image: url('../../resources/absolute3.png');
             background-size: cover;
             background-repeat: no-repeat;
             position: relative;

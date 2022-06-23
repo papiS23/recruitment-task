@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-image: url("/resources/header_bg.png");
+  background-image: url("../../resources/header_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -82,7 +82,7 @@
 }
 .aside__offert-box--first {
   position: relative;
-  background-image: url("/resources/absolute1.png");
+  background-image: url("../../resources/absolute1.png");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
@@ -100,7 +100,7 @@
   background: linear-gradient(180deg, rgb(225, 0, 36) 20%, rgba(225, 0, 36, 0.7) 100%);
 }
 .aside__offert-box--second {
-  background-image: url("/resources/absolute2.png");
+  background-image: url("../../resources/absolute2.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -119,7 +119,7 @@
   background: linear-gradient(180deg, rgb(186, 4, 33) 20%, rgba(186, 4, 33, 0.7) 100%);
 }
 .aside__offert-box--third {
-  background-image: url("/resources/absolute3.png");
+  background-image: url("../../resources/absolute3.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -213,7 +213,7 @@
   height: fit-content;
   display: flex;
   justify-content: center;
-  background-image: url("/resources/magazine.png");
+  background-image: url("../../resources/magazine.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -239,7 +239,7 @@
 .main__offert {
   width: 100%;
   height: 900px;
-  background-image: url("/resources/main_bg.png");
+  background-image: url("../../resources/main_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
