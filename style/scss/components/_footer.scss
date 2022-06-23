@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+
+    &__first-puzzle {
+        height: 100px;
+        display: flex;
+    }
+
+    &__first-left {
+        width: 50%;
+        height: 100%;
+        background-color: #04051A;
+    }
+
+    &__first-right {
+        width: 50%;
+        height: 100%;
+    }
+
+    &__second {
+        width: 100%;
+        height: 50px;
+        background-color: $red-color;
+        display: flex;
+        align-items: center;
+    }
+
+    &__p {
+        margin-right: 15%;
+        margin-left: auto;
+        color: white;
+    }
+}
