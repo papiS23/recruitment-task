@@ -38,10 +38,22 @@
 .header__link {
   text-decoration: none;
   color: #fff;
+  padding: 0.5em 0;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s linear;
+}
+.header__link:hover {
+  border-bottom: 1px solid #E10024;
 }
 .header__link--join-us {
   padding: 1em;
   background-color: #E10024;
+  border: 2px solid transparent;
+}
+.header__link--join-us:hover {
+  border: 2px solid #E10024;
+  border-bottom: 2px solid #E10024;
+  background: transparent;
 }
 .header__title {
   margin-right: 15%;
@@ -138,6 +150,9 @@
   font-size: 26px;
   margin-bottom: 8%;
 }
+.aside__title--third {
+  color: #E10024;
+}
 .aside__paragraph {
   font-size: 14px;
   line-height: 25px;
@@ -149,11 +164,24 @@
   align-items: center;
 }
 .aside__btn {
+  width: 40%;
   font-size: 14px;
   background: transparent;
   border: none;
   color: #fff;
-  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding-left: 5%;
+}
+.aside__btn:hover {
+  background-color: #fff;
+  color: #E10024;
+  font-weight: 600;
+}
+.aside__btn-p {
+  margin-right: 2%;
 }
 .aside__icon-box {
   height: 35px;
@@ -245,7 +273,6 @@
 .main__small-sq {
   width: 40%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .main__small-sq-img {
@@ -253,6 +280,10 @@
 }
 .main__small-sq-p {
   font-size: 13px;
+  font-weight: 600;
+}
+.main__p-red {
+  color: #E10024;
 }
 .main__bed-img {
   height: 402px;

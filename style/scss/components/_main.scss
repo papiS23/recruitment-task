@@ -82,7 +82,6 @@
     &__small-sq {
         width: 40%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
 
@@ -92,6 +91,11 @@
 
     &__small-sq-p {
         font-size: 13px;
+        font-weight: 600;
+    }
+
+    &__p-red {
+        color: $red-color;
     }
 
     &__bed-img {
