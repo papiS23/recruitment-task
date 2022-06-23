@@ -472,6 +472,36 @@
   width: 50%;
   height: 100%;
   background-color: #04051A;
+  display: flex;
+  align-items: center;
+}
+.footer__left-p {
+  color: rgb(180, 180, 180);
+  font-size: 12px;
+  width: 35%;
+  margin-left: auto;
+  line-height: 30px;
+}
+.footer__left-p-red {
+  color: #E10024;
+}
+.footer__contact {
+  width: 35%;
+  padding-left: 5%;
+  border-left: 1px rgb(80, 80, 80) solid;
+}
+.footer__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.footer__link--first {
+  margin-bottom: 2%;
+}
+.footer__contact-p {
+  color: rgb(180, 180, 180);
+  font-size: 13px;
+  margin-left: 7%;
 }
 .footer__first-right {
   width: 50%;
@@ -488,6 +518,9 @@
   margin-right: 15%;
   margin-left: auto;
   color: white;
+}
+.footer__icon {
+  height: 20px;
 }
 
 * {

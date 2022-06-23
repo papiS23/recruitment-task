@@ -10,6 +10,42 @@
         width: 50%;
         height: 100%;
         background-color: #04051A;
+        display: flex;
+        align-items: center;
+    }
+
+    &__left-p {
+        color: rgb(180, 180, 180);
+        font-size: 12px;
+        width: 35%;
+        margin-left: auto;
+        line-height: 30px;
+    }
+
+    &__left-p-red {
+        color: $red-color;
+    }
+
+    &__contact {
+        width: 35%;
+        padding-left: 5%;
+        border-left: 1px rgb(80, 80, 80) solid;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+        &--first {
+            margin-bottom: 2%;
+        }
+    }
+
+    &__contact-p {
+        color: rgb(180, 180, 180);
+        font-size: 13px;
+        margin-left: 7%;
     }
 
     &__first-right {
@@ -29,5 +65,9 @@
         margin-right: 15%;
         margin-left: auto;
         color: white;
+    }
+
+    &__icon {
+        height: 20px;
     }
 }
