@@ -229,6 +229,13 @@
   opacity: 80%;
   z-index: -1;
 }
+.main__sections--third {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 .main__offert {
   width: 100%;
   height: 900px;
@@ -384,6 +391,10 @@
 .main__link-p {
   color: #fff;
   margin-left: 5%;
+  font-weight: 600;
+}
+.main__link-p--last {
+  color: #000;
 }
 .main__icon-box {
   width: 50px;
@@ -395,6 +406,59 @@
 }
 .main__icon {
   width: 30px;
+}
+.main__shopping {
+  width: 30%;
+  height: 70%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main__title-last {
+  font-size: 35px;
+}
+.main__title-last-red {
+  color: #E10024;
+}
+.main__paragraph-last {
+  margin-top: 5%;
+  line-height: 30px;
+}
+.main__paragraph-last--under {
+  font-weight: 600;
+  margin-top: 0%;
+}
+.main__paragraph-last-red {
+  color: #E10024;
+}
+.main__box-mate {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.main__p-box {
+  padding: 0.5em 1.5em;
+  background-color: #F1F1F1;
+  position: relative;
+}
+.main__abs-dot {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: #E10024;
+  top: 0;
+  left: 0;
+}
+.main__img-last-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(231, 231, 231);
+  background: linear-gradient(0deg, rgb(231, 231, 231) 65%, rgba(255, 255, 255, 0) 100%);
 }
 
 * {
